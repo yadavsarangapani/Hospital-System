@@ -64,7 +64,7 @@ public class SecurityConfig {
         // Explicitly list allowed frontend URLs
         configuration.setAllowedOrigins(List.of(
             "http://localhost:3000", 
-            "https://hospital-system-2oxa.vercel.app" // Your deployed frontend
+            "https://hospital-system-2oxa.vercel.app" // Your deployed frontend rah mudinja pathuko
         ));
 
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
