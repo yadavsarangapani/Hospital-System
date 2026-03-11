@@ -16,7 +16,7 @@ import DoctorSearch from './pages/patient/DoctorSearch';
 import DoctorProfile from './pages/patient/DoctorProfile';
 import AppointmentHistory from './pages/patient/AppointmentHistory';
 
-// Doctor
+// Doctor.
 import DoctorDashboard from './pages/doctor/DoctorDashboard';
 import ManageSlots from './pages/doctor/ManageSlots';
 import DailySchedule from './pages/doctor/DailySchedule';
