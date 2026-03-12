@@ -4,7 +4,7 @@ const API = axios.create({
   baseURL: 'https://hospital-system-tj6w.onrender.com/api',
 });
 
-// Add JWT token to every request
+// Add JWT token to every request if available
 API.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
   if (token) {
